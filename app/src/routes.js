@@ -11,7 +11,6 @@ const Routes = createAppContainer(
       Main,
     },
     {
-      initialRouteName: 'Main',
       headerBackTitleVisible: false,
       cardStyle: {
         backgroundColor: '#191920',
