@@ -15,3 +15,11 @@ export const Logo = styled.Image.attrs({
   width: 185px;
   height: 24px;
 `;
+
+export const BasketContainer = styled.TouchableOpacity`
+  height: 24px;
+  width: 24px;
+  flex: 1;
+  align-items: flex-end;
+  justify-content: flex-end;
+`;

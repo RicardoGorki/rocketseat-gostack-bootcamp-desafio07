@@ -26,6 +26,7 @@ export default class Main extends Component {
   }
 
   handleProducts = async () => {
+    const { amount } = this.props;
     const response = await api.get('/products');
 
     const data = response.data.map(product => ({
@@ -40,7 +41,7 @@ export default class Main extends Component {
 
   render() {
     const { products } = this.state;
-
+    const { amount } = this.props;
     return (
       <Container>
         <List
