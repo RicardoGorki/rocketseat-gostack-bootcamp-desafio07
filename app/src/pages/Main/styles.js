@@ -30,6 +30,7 @@ export const ProductPrice = styled.Text`
   font-size: 20px;
   margin-bottom: 14px;
   font-weight: bold;
+  color: #000;
 `;
 
 export const ProductAmount = styled.View`
