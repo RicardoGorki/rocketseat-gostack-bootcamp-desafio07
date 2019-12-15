@@ -40,7 +40,11 @@ class Main extends Component {
     this.setState({ products: data });
   };
 
-  handleAddProduct = id => {};
+  handleAddProduct = id => {
+    const { addToCartRequest } = this.props;
+
+    addToCartRequest(id);
+  };
 
   render() {
     const { products } = this.state;
